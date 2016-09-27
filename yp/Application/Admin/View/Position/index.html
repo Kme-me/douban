@@ -1,0 +1,85 @@
+
+<include file="Index/header" />
+<body>
+
+<div id="wrapper">
+
+    <include file="Index/nav"/>
+
+    <div id="page-wrapper">
+
+    <div class="container-fluid" >
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+
+                <ol class="breadcrumb">
+                    <li>
+                        <i class="fa fa-dashboard"></i>  <a href="/tyhcms/admin.php?c=menu">菜单管理</a>
+                    </li>
+                    <li class="active">
+                        <i class="fa fa-table"></i>推荐位管理
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div>
+          <button  id="button-add" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>添加 </button>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <h3></h3>
+                <div class="table-responsive">
+                    <form id="singcms-listorder">
+                    <table class="table table-bordered table-hover singcms-table">
+                        <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>推荐位名称</th>
+                            <th>时间</th>
+                            <th>状态</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="polists" id="polists">
+                            <tr>
+                                <td>{$polists.id}</td>
+                                <td>{$polists.name}</td>
+                                <td>{$polists.create_time|date="Y-m-d H:i",###}</td>
+                                <td>{$polists.status|status}</td>
+                                <td><span class="glyphicon glyphicon-edit" aria-hidden="true" id="singcms-edit" attr-id="{$polists.id}"></span>    <a href="javascript:void(0)" attr-id="{$polists.id}" id="singcms-delete" attr-message="删除"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></a></td>
+                            </tr>
+                        </volist>
+
+                        </tbody>
+                    </table>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+
+
+    </div>
+    <!-- /.container-fluid -->
+
+</div>
+<!-- /#page-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+<!-- Morris Charts JavaScript -->
+<script>
+
+    var SCOPE = {
+        'add_url' : '/tyhcms/admin.php?c=menu&a=add',
+        'edit_url' : '/tyhcms/admin.php?c=menu&a=edit',
+        'set_status_url' : '/tyhcms/admin.php?c=menu&a=setStatus',
+        'listorder_url' : '/tyhcms/admin.php?c=menu&a=listorder',
+    }
+</script>
+<include file="Index/footer" />

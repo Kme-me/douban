@@ -1,0 +1,564 @@
+[ 2016-08-08T08:22:36+08:00 ] 127.0.0.1 /6x/admin.php?&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cms_admin` SET `lastlogintime`='1470615756' WHERE ( admin_id=1 ) [ RunTime:0.0000s ]
+
+[ 2016-08-08T08:22:41+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE `school_nj` = '三年级'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:22:56+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:31:42+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李%"  )  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'school_km' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 161 行.
+NOTIC: [8] Undefined offset: 1 F:\www\6x\Application\Common\Common\function.php 第 90 行.
+NOTIC: [2] Illegal string offset 'school_km' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 162 行.
+NOTIC: [2] Illegal string offset 'create_time' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 163 行.
+NOTIC: [2] Illegal string offset 'create_time' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 163 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:32:07+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cms_video` WHERE `school_nj` = '三年级'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T08:32:15+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李%"  )  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'school_km' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 161 行.
+NOTIC: [8] Undefined offset: 1 F:\www\6x\Application\Common\Common\function.php 第 90 行.
+NOTIC: [2] Illegal string offset 'school_km' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 162 行.
+NOTIC: [2] Illegal string offset 'create_time' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 163 行.
+NOTIC: [2] Illegal string offset 'create_time' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 163 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T08:34:27+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE `school_nj` = '三年级'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:34:32+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李%"  )  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'school_km' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 161 行.
+NOTIC: [8] Undefined offset: 1 F:\www\6x\Application\Common\Common\function.php 第 90 行.
+NOTIC: [2] Illegal string offset 'school_km' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 162 行.
+NOTIC: [2] Illegal string offset 'create_time' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 163 行.
+NOTIC: [2] Illegal string offset 'create_time' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 163 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:34:46+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE `school_nj` = '三年级'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:35:08+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李%"  )  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'school_km' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 161 行.
+NOTIC: [8] Undefined offset: 1 F:\www\6x\Application\Common\Common\function.php 第 90 行.
+NOTIC: [2] Illegal string offset 'school_km' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 162 行.
+NOTIC: [2] Illegal string offset 'create_time' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 163 行.
+NOTIC: [2] Illegal string offset 'create_time' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 163 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:35:35+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE `school_nj` = '三年级'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:35:37+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'school_km' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 161 行.
+NOTIC: [8] Undefined offset: 1 F:\www\6x\Application\Common\Common\function.php 第 90 行.
+NOTIC: [2] Illegal string offset 'school_km' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 162 行.
+NOTIC: [2] Illegal string offset 'create_time' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 163 行.
+NOTIC: [2] Illegal string offset 'create_time' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 163 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:36:11+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE `school_nj` = '三年级'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:36:18+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'school_km' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 161 行.
+NOTIC: [8] Undefined offset: 1 F:\www\6x\Application\Common\Common\function.php 第 90 行.
+NOTIC: [2] Illegal string offset 'school_km' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 162 行.
+NOTIC: [2] Illegal string offset 'create_time' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 163 行.
+NOTIC: [2] Illegal string offset 'create_time' F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 163 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:38:08+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_video` WHERE `school_nj` = '三年级'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:38:11+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: school_km F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 161 行.
+NOTIC: [8] Undefined index:  F:\www\6x\Application\Common\Common\function.php 第 90 行.
+NOTIC: [8] Undefined index: create_time F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 163 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:43:53+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%BA%8C%E5%B9%B4%E7%BA%A7&km=&search=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE `school_nj` = '二年级'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:43:57+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%BA%8C%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: school_km F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 161 行.
+NOTIC: [8] Undefined index:  F:\www\6x\Application\Common\Common\function.php 第 90 行.
+NOTIC: [8] Undefined index: create_time F:\www\6x\Application\Admin\Controller\VideoController.class.php 第 163 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:46:25+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_video` WHERE `school_nj` = '三年级'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-08T08:46:28+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T08:48:50+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:49:26+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:49:53+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:50:35+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:51:36+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:51:52+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:56:08+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T08:57:20+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:01:12+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:01:43+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:02:33+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-08-08T09:28:29+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:31:51+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:32:10+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:37:11+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:37:18+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-08T09:37:20+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:37:26+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E5%85%A8%E5%AD%A6%E6%A0%A1&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-08T09:41:35+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:41:42+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:41:49+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:42:13+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E5%9B%9B%E5%B9%B4%E7%BA%A7&km=&search=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE `school_nj` = '四年级'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:42:16+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E5%9B%9B%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:42:32+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:47:26+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:47:31+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:49:04+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E5%9B%9B%E5%B9%B4%E7%BA%A7&km=&search=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE `school_nj` = '四年级'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:49:06+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E5%9B%9B%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:49:12+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE `school_nj` = '三年级'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:49:20+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:49:26+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=&search=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE `school_nj` = '三年级'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:49:28+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=kexue&search=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_video` WHERE `school_nj` = '三年级' AND `school_km` = 'kexue'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-08T09:49:34+08:00 ] 127.0.0.1 /6x/admin.php?c=video&a=chaxun&nj=%E4%B8%89%E5%B9%B4%E7%BA%A7&km=kexue&search=%E6%9D%8E%E6%9C%9D%E8%8D%A3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_video` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cms_video` WHERE ( school_ls like "%李朝荣%"  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

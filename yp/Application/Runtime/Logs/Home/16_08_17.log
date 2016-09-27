@@ -1,0 +1,373 @@
+[ 2016-08-17T16:37:16+08:00 ] 127.0.0.1 /yp/
+ERR: 1054:Unknown column 'y.time_yp' in 'on clause'
+ [ SQL语句 ] : SELECT t.time,y.* FROM yp_time t INNER JOIN yp as y on t.id=y.time_yp  
+
+[ 2016-08-17T17:19:11+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/theme.css
+ERR: 非法操作:theme.css
+
+[ 2016-08-17T17:36:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:36:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:37+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:36:37+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:37+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:37+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:45+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:36:45+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:45+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:45+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:46+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:46+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:55+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:36:55+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:55+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:55+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:55+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:36:55+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:37:05+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:37:05+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:37:05+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:37:05+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:37:09+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/content/xiangxi/1066
+ERR: 非法操作:content
+
+[ 2016-08-17T17:37:11+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:37:11+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:37:11+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:37:11+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:37:11+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:37:11+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:45:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:45:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:45:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:45:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:45:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:45:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:45:31+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:45:31+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:45:31+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:45:31+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:45:34+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:45:34+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:45:34+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:45:34+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:45:34+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:45:34+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:46:09+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:46:09+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:46:09+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:46:09+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:46:09+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:47:19+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:47:19+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:47:19+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:47:19+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:47:25+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:47:25+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:47:25+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:47:25+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:47:25+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:47:25+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:47:26+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:47:26+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:47:26+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:47:26+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:47:26+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:47:26+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:10+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:51:11+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:11+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:11+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:11+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:12+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:51:12+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:12+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:12+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:12+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:12+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:12+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:12+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:51:12+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:12+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:12+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:12+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:51:13+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:13+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:13+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:13+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:13+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:23+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:51:23+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:23+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:23+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:23+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:23+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:51:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:51:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:52:19+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:52:20+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:52:20+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:52:20+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:52:20+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:52:20+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:52:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:52:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:52:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:52:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:52:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:52:28+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:59:45+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/dist/css/bootstrap-theme.min.css
+ERR: 非法操作:dist
+
+[ 2016-08-17T17:59:45+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:59:45+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie-emulation-modes-warning.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:59:45+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:59:45+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/docs.min.js
+ERR: 非法操作:assets
+
+[ 2016-08-17T17:59:45+08:00 ] 127.0.0.1 /yp/index.php/Home/Index/assets/js/ie10-viewport-bug-workaround.js
+ERR: 非法操作:assets
+

@@ -1,0 +1,15 @@
+[ 2016-08-17T17:19:11+08:00 ] 127.0.0.1 /yp/index.php/assets/js/ie-emulation-modes-warning.js
+ERR: 无法加载模块:Assets
+
+[ 2016-08-17T17:19:11+08:00 ] 127.0.0.1 /yp/index.php/dist/css/bootstrap-theme.min.css
+ERR: 无法加载模块:Dist
+
+[ 2016-08-17T17:19:11+08:00 ] 127.0.0.1 /yp/index.php/assets/js/docs.min.js
+ERR: 无法加载模块:Assets
+
+[ 2016-08-17T17:19:11+08:00 ] 127.0.0.1 /yp/index.php/assets/js/ie10-viewport-bug-workaround.js
+ERR: 无法加载模块:Assets
+
+[ 2016-08-17T17:19:11+08:00 ] 127.0.0.1 /yp/index.php/favicon.ico
+ERR: 无法加载模块:Favicon
+

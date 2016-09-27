@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family:Helvetica,"Microsoft YaHei", Arial, Helvetica, sans-serif;
+	-webkit-text-size-adjust: none;
+}
+ul, li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+    max-width: 100%;
+}
+
+.container{margin:0; padding:0; width:100%;} 
+.menu{margin-top:0;}
+.menu li{text-align:center;display:block; float:left; height:95px; line-height:95px; width:50%;}
+.menu li.one{ background-color:#36a1db; color:#ffffff; font-size:25px;}
+.menu li.two{ background-color:#81b637; color:#ffffff; font-size:25px;}
+.menu li.three{ background-color:#fcbe07; color:#ffffff; font-size:25px;}
+.menu li.four{ background-color:#01cbcd; color:#ffffff; font-size:25px;}
+.menu li.five{ background-color:#e57e22; color:#ffffff; font-size:25px;}
+.menu li.six{ background-color:#c6331f; color:#ffffff; font-size:25px;}
+.menu li.fc{ background-color:#7e54dc; color:#ffffff; font-size:25px;}
+.menu li a{display:block;overflow:hidden; color:#ffffff; font-family:"Microsoft YaHei"; text-decoration: none;}
+.header{margin:0 auto; width:100%;}
+.header .Pic{text-align:center;}
+.header .Pic img{ min-width:320px; height:auto;}
+.footer{ background:#58b530; border-top:none; text-align:center; font-size:14px; padding:15px 0px;font-family:"Microsoft YaHei";color:#fff;}
+.footer span{color:#fff; line-height:30px;}
+.footer a {color:#fff; text-decoration:none;}
+.clear{clear:both;}
+
+.top{position:relative;height:2.6em;line-height:2.6em;background:#58b530;color:#fff;font-size:1.8em;text-align:center;}
+.top span{font-size:30px;}
+.top a{position:absolute;display:block;top:0;text-indent:-999em; overflow:hidden; border:1px solid #fff; border-radius:8px; width:50px; height:50px; top:15%;}
+.top a.back{left:15px;background:url(../img/back.png) no-repeat 40% 50%;-webkit-background-size:1.3em 1.1em;-moz-background-size:1.3em 1.1em;-o-background-size:1.3em 1.1em;background-size:1.3em 1.1em;color:#88898D;}
+.top a.home{right:15px;background:url(../img/home.png) no-repeat 50% 50%;-webkit-background-size:1.4em 1.2em;-moz-background-size:1.4em 1.2em;-o-background-size:1.4em 1.2em;background-size:1.4em 1.2em;}
+
+
+
+.menu_con{background-color:#e8e8e8; padding:20px 10px 10px 10px;}
+.menu_con li{background-color:#FFF; border-radius:10px; border-left:1px solid  #ddd;border-right:1px solid  #ddd; padding:0px 10px; margin-bottom:30px;}
+.menu_con li h1{text-align:center; display:block; font-size:18px; font-weight:bold; color:#F60; padding:20px 0px 5px 0px;}
+.menu_con li span{text-align:right; display:block; color:#333333; font-weight:100; font-size:14px; padding:20px 20px;}
+
+.menu_list{width:100%; overflow:hidden; margin:0 auto;}
+.menu_list #nav{width:100%;padding:0;margin:0;list-style:none;}
+@media screen and (min-width:970px) {
+.menu_list #nav li img{
+	height:50px;
+	width:50px;
+	text-align:center;
+}
+.menu_list #nav li{
+	float:left;
+	width:10%;
+	height:auto;
+	text-align:center;
+	display:block;
+}	
+.menu_list #nav li a{
+	height:auto;
+	text-align:center;
+	display:block;
+	padding:10px 0px;
+	text-decoration:none;
+}	
+.menu_list #nav li a span {
+	text-align:center;
+	font-size:16px;
+	color: #666666;
+	font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	display:block;
+	
+}
+.selected{background:#ecf6ff;border-radius:5px 5px 5px 5px;text-decoration:none; text-align:center; color:#666666;}
+.carousel-inner{width:900px; margin:0 auto;}
+}
+
+@media screen and (min-width:640px) and (max-width:970px) {
+.menu_list #nav li img{
+	height:45px;
+	width:45px;
+	text-align:center;
+}
+.menu_list #nav li{
+	float:left;
+	width:16.6%;
+	height:auto;
+	text-align:center;
+	display:block;
+}	
+.menu_list #nav li a{
+	height:auto;
+	text-align:center;
+	display:block;
+	padding:10px 0px;
+	text-decoration:none;
+}	
+.menu_list #nav li a span {
+	text-align:center;
+	font-size:16px;
+	color: #666666;
+	font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	display:block;
+	
+}
+.selected{background:#ecf6ff;border-radius:5px 5px 5px 5px;text-decoration:none; text-align:center; color:#666666;}
+.carousel-inner{width:768px; margin:0 auto;}
+}
+
+@media screen and (min-width:320px) and (max-width:640px) {
+.menu_list #nav li img{
+	height:40px;
+	width:40px;
+	text-align:center;
+}
+.menu_list #nav li{
+	float:left;
+	width:20%;
+	height:auto;
+	text-align:center;
+	display:block;
+}	
+.menu_list #nav li a{
+	height:auto;
+	text-align:center;
+	display:block;
+	padding:10px 0px;
+	text-decoration:none;
+}	
+.menu_list #nav li a span {
+	text-align:center;
+	font-size:16px;
+	color: #666666;
+	font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	display:block;
+	
+}
+.selected{background:#ecf6ff;border-radius:5px 5px 5px 5px;text-decoration:none; text-align:center; color:#666666;}
+}
+@media screen and (max-width:320px){
+.menu_list #nav li img{
+	height:35px;
+	width:35px;
+	text-align:center;
+}
+.menu_list #nav li{
+	float:left;
+	width:23.5%;
+	height:auto;
+	text-align:center;
+	display:block;
+}	
+.menu_list #nav li a{
+	height:auto;
+	text-align:center;
+	display:block;
+	padding:10px 0px;
+	text-decoration:none;
+}	
+.menu_list #nav li a span {
+	text-align:center;
+	font-size:14px;
+	color: #666666;
+	font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	display:block;
+	
+}
+.selected{background:#ecf6ff;border-radius:5px 5px 5px 5px;text-decoration:none; text-align:center; color:#666666;}
+}
+
+/* 效果CSS开始 */
+.kePublic{width:100%; margin:0 auto;}
+.slider{display:none;}/*用于获取更加体验*/
+.slider ul li{ height:auto;}
+.focus span.current{background:#fff}
+/* 效果CSS结束 */
