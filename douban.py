@@ -12,23 +12,6 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
 
-# def towrite(contentdict):
-#     f.writelines(u'题目:' + contentdict['title'] + '\n')
-#     f.writelines(u'推荐指数:' + contentdict['rate'] + '\n')
-#     f.writelines(u'电影:' + contentdict['movie'] + '\n')
-#     f.writelines(u'影评:' + contentdict['content'] + '\n')
-def filter_emoji(desstr, restr=''):
-    '''
-    过滤表情
-    '''
-    try:
-        co = re.compile(u'[\U00010000-\U0010ffff]')
-    except re.error:
-        co = re.compile(u'[\uD800-\uDBFF][\uDC00-\uDFFF]')
-    html = requests.get(url)
-    return co.sub(restr, desstr)
-
-
 def spider(url):
     html = requests.get(url)
     selector = etree.HTML(html.text)
